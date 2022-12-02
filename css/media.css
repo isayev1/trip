@@ -1,0 +1,29 @@
+@media (max-width: 1200px){
+    .container{
+        max-width: 100%;
+        padding: 0 24px;
+    }
+    .wrapper{
+        max-width: 100% ;
+    }
+    .grid_part{
+    grid-template-columns: 1fr;
+    }
+    .part-2{
+        display: none;
+    }
+    .part-3{
+        display: none;
+    }
+    .screen_4{
+        grid-template-columns: 1fr;
+    }
+    .container-bottom{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .pictures:nth-child(n){
+        grid-row: auto;
+        grid-column: auto;
+    }
+
+}
